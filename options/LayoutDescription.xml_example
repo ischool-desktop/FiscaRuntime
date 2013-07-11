@@ -1,0 +1,1117 @@
+﻿<Layout>
+	<StartMenu>
+		<Item Title="最新消息"/>
+		<Item Title="查詢個人歷程"/>
+		<Item Title="查詢所有歷程"/>
+		<Item Title="管理學校基本資料"/>
+		<Item Title="編輯學校資訊"/>
+		<Item Title="安全性">
+			<Item Title="變更密碼"/>
+			<Item Title="使用者管理"/>
+			<Item Title="角色權限管理"/>
+		</Item>
+		<Item Title="模組管理"/>
+		<Item Title="自訂查詢"/>
+		<Item Title="系統歷程">
+			<Item Title="查詢個人歷程"/>
+			<Item Title="查詢系統歷程"/>
+		</Item>
+		<Item Title="電子報表管理"/>
+		<Item Title="資料合理性檢查"/>
+		<Item Title="重新登入" Last="True"/>
+	</StartMenu>
+	<RibbonControl>
+		<Item Title="學生">
+			<Item Title="編輯">
+				<Item Title="Large">
+					<Item Title="新增"/>
+					<Item Title="刪除"/>
+				</Item>
+			</Item>
+			<Item Title="資料統計">
+				<Item Title="Large">
+					<Item Title="匯出">
+						<Item Title="學籍相關匯出">
+							<Item Title="匯出學生基本資料"/>
+							<Item Title="匯出學生照片"/>
+							<Item Title="匯出學生類別"/>
+							<Item Title="匯出畢業資訊"/>
+							<Item Title="匯出離校資訊"/>
+						</Item>
+						<Item Title="成績相關匯出">
+							<Item Title="匯出課程成績"/>
+							<Item Title="匯出學期歷程"/>
+							<Item Title="匯出畢業成績"/>
+							<Item Title="匯出評量成績"/>
+							<Item Title="匯出學期科目成績"/>
+							<Item Title="匯出學期領域成績"/>
+							<Item Title="匯出學期分項成績"/>
+							<Item Title="匯出學年科目成績"/>
+							<Item Title="匯出學年分項成績"/>
+						</Item>
+						<Item Title="異動相關匯出">
+							<Item Title="匯出學籍異動"/>
+							<Item Title="匯出新生異動"/>
+							<Item Title="匯出畢業異動"/>
+							<Item Title="匯出轉入異動"/>
+							<Item Title="匯出轉出異動"/>
+							<Item Title="匯出休學異動"/>
+							<Item Title="匯出復學異動"/>
+							<Item Title="匯出中輟異動"/>
+							<Item Title="匯出續讀異動"/>
+							<Item Title="匯出更正學籍異動"/>
+						</Item>
+						<Item Title="學務相關匯出">
+							<Item Title="匯出缺曠記錄"/>
+							<Item Title="匯出缺曠統計"/>
+							<Item Title="匯出獎勵記錄"/>
+							<Item Title="匯出懲戒記錄"/>
+							<Item Title="匯出獎勵懲戒記錄"/>
+							<Item Title="匯出獎勵懲戒統計"/>
+							<Item Title="匯出文字評量"/>
+							<Item Title="匯出導師評語"/>
+							<Item Title="匯出日常生活表現"/>
+							<Item Title="匯出擔任幹部記錄"/>
+							<Item Title="匯出社團活動表現"/>
+							<Item Title="匯出服務學習記錄"/>
+						</Item>
+						<Item Title="社團相關匯出">
+							<Item Title="匯出社團學期成績"/>
+						</Item>
+						<Item Title="其它相關匯出">
+							<Item Title="匯出自訂欄位"/>
+							<Item Title="匯出自訂資料欄位"/>
+							<Item Title="XML 3.0 資料交換規格"/>
+						</Item>
+					</Item>
+					<Item Title="匯入">
+						<Item Title="學籍相關匯入">
+							<Item Title="匯入學生基本資料"/>
+							<Item Title="匯入學生照片"/>
+							<Item Title="匯入學生類別"/>
+							<Item Title="匯入畢業資訊"/>
+						</Item>
+						<Item Title="成績相關匯入">
+							<Item Title="匯入課程成績"/>
+							<Item Title="匯入學期歷程"/>
+							<Item Title="匯入畢業成績"/>
+							<Item Title="匯入評量成績"/>
+							<Item Title="匯入學期科目成績"/>
+							<Item Title="匯入學期領域成績"/>
+							<Item Title="匯入學期分項成績"/>
+							<Item Title="匯入學年科目成績"/>
+							<Item Title="匯入學年分項成績"/>
+						</Item>
+						<Item Title="異動相關匯入">
+							<Item Title="匯入學籍異動"/>
+							<Item Title="匯入新生異動"/>
+							<Item Title="匯入畢業異動"/>
+							<Item Title="匯入轉入異動"/>
+							<Item Title="匯入轉出異動"/>
+							<Item Title="匯入休學異動"/>
+							<Item Title="匯入復學異動"/>
+							<Item Title="匯入中輟異動"/>
+							<Item Title="匯入續讀異動"/>
+							<Item Title="匯入更正學籍異動"/>
+						</Item>
+						<Item Title="學務相關匯入">
+							<Item Title="匯入缺曠記錄"/>
+							<Item Title="匯入獎勵懲戒記錄"/>
+							<Item Title="匯入缺曠統計"/>
+							<Item Title="匯入獎勵懲戒統計"/>
+							<Item Title="匯入文字評量"/>
+							<Item Title="匯入導師評語"/>
+							<Item Title="匯入日常生活表現"/>
+							<Item Title="匯入擔任幹部記錄"/>
+							<Item Title="匯入社團活動表現"/>
+							<Item Title="匯入服務學習時數"/>
+						</Item>
+						<Item Title="其它相關匯入">
+							<Item Title="匯入自訂欄位"/>
+							<Item Title="匯入自訂資料欄位"/>
+						</Item>
+					</Item>
+					<Item Title="報表">
+						<Item Title="學籍相關報表">
+							<Item Title="學生證"/>
+							<Item Title="畢業證書"/>
+							<Item Title="轉出回條"/>
+							<Item Title="轉學證明書"/>
+							<Item Title="休學證明書"/>
+							<Item Title="畢業證明書"/>
+							<Item Title="在學證明書(無成績)"/>
+							<Item Title="畢修業證明書相關資料"/>
+							<Item Title="產生學生基本學力資料"/>
+						</Item>
+						<Item Title="成績相關報表">
+							<Item Title="學籍表"/>
+							<Item Title="畢業預警報表"/>
+							<Item Title="學期成績單"/>
+							<Item Title="學期成績單(新制)"/>
+							<Item Title="多學期成績單"/>
+							<Item Title="學年成績單(新制)"/>
+							<Item Title="學期成績通知單"/>
+							<Item Title="個人評量成績單"/>
+							<Item Title="學期成績證明單"/>
+							<Item Title="在校成績證明書"/>
+							<Item Title="轉學成績證明書"/>
+							<Item Title="在校成績證明書(英文)"/>
+							<Item Title="期中轉學成績證明書"/>
+							<Item Title="學生學期修課檢查表"/>
+							<Item Title="竹苗區高中職免試入學報名資料"/>
+							<Item Title="北區五專聯合免試入學報名資料"/>
+							<Item Title="100學年度多元入學在校成績證明書"/>
+							<Item Title="100學年度多元入學五專成績證明單"/>
+						</Item>
+						<Item Title="學務相關報表">
+							<Item Title="銷過通知單"/>
+							<Item Title="留察通知單"/>
+							<Item Title="缺曠通知單"/>
+							<Item Title="懲戒通知單"/>
+							<Item Title="獎懲通知單"/>
+							<Item Title="獎勵懲戒通知單"/>
+							<Item Title="學生獎勵明細"/>
+							<Item Title="學生獎勵懲戒明細"/>
+							<Item Title="學生缺曠明細"/>
+							<Item Title="畢業預警報表"/>
+							<Item Title="學生訓導紀錄表"/>
+							<Item Title="學生幹部證明單"/>
+							<Item Title="學生日常表現總表"/>
+							<Item Title="服務學習時數證明單"/>
+							<Item Title="歷年功過及出席統計表"/>
+						</Item>
+						<Item Title="輔導資料報表">
+							<Item Title="輔導資料表"/>
+						</Item>
+						<Item Title="重修資料">
+							<Item Title="隨堂重修課程表"/>
+						</Item>
+					</Item>
+				</Item>
+			</Item>
+			<Item Title="指定">
+				<Item Title="Medium">
+					<Item Title="類別"/>
+					<Item Title="修課">
+						<Item Title="加入所有待處理課程"/>
+					</Item>
+					<Item Title="課程規劃">
+						<Item Title="不指定"/>
+					</Item>
+					<Item Title="計算規則">
+						<Item Title="不指定"/>
+					</Item>
+				</Item>
+			</Item>
+			<Item Title="教務">
+				<Item Title="Large">
+					<Item Title="新生作業">
+						<Item Title="產生教育程度資料"/>
+						<Item Title="新生異動"/>
+					</Item>
+					<Item Title="異動作業">
+						<Item Title="轉科"/>
+						<Item Title="學籍更正"/>
+						<Item Title="更正學籍"/>
+						<Item Title="轉入異動"/>
+					</Item>
+					<Item Title="成績作業">
+						<Item Title="計算科目成績"/>
+						<Item Title="計算領域成績"/>
+						<Item Title="計算學習領域成績"/>
+						<Item Title="加總學習領域文字描述"/>
+						<Item Title="計算學期科目成績"/>
+						<Item Title="計算學期分項成績"/>
+						<Item Title="計算學年科目成績"/>
+						<Item Title="計算學年分項成績(依學期分項成績，日校適用)"/>
+						<Item Title="計算學年分項成績(依學年科目成績，進校適用)"/>
+						<Item Title="計算畢業成績"/>
+						<Item Title="檢查畢業資格"/>
+						<Item Title="取得學程判斷"/>
+					</Item>
+					<Item Title="排名作業">
+						<Item Title="排名"/>
+						<Item Title="評量成績排名"/>
+						<Item Title="學期成績排名"/>
+						<Item Title="學期科目成績排名(多學期)"/>
+					</Item>
+					<Item Title="畢業作業">
+						<Item Title="產生教育程度資料"/>
+						<Item Title="計算畢業成績"/>
+						<Item Title="畢業資格審查"/>
+						<Item Title="畢業異動"/>
+						<Item Title="證書字號"/>
+						<Item Title="批次畢業異動"/>
+						<Item Title="產生教育程度資料檔"/>
+					</Item>
+				</Item>
+			</Item>
+			<Item Title="學務">
+				<Item Title="Medium">
+					<Item Title="獎勵"/>
+					<Item Title="懲戒"/>
+					<Item Title="獎勵快速登錄"/>
+					<Item Title="懲戒快速登錄"/>
+					<Item Title="缺曠"/>
+					<Item Title="銷過"/>
+					<Item Title="長假登錄"/>
+					<Item Title="轉入補登"/>
+					<Item Title="德行成績(舊制)">
+						<Item Title="計算德行學期成績(舊制)"/>
+						<Item Title="計算德行學年成績(舊制)"/>
+					</Item>
+					<Item Title="服務學習快速登錄"/>
+				</Item>
+			</Item>
+			<Item Title="輔導">
+				<Item Title="Large">
+					<Item Title="匯出"/>
+					<Item Title="匯入"/>
+					<Item Title="報表"/>
+					<Item Title="指定"/>
+					<Item Title="設定"/>
+				</Item>
+			</Item>
+			<Item Title="其它" Last="True">
+				<Item Title="Medium">
+					<Item Title="畢業封存"/>
+					<Item Title="查詢經緯度"/>
+					<Item Title="學生分佈圖">
+						<Item Title="戶籍地址"/>
+						<Item Title="聯絡地址"/>
+						<Item Title="其他地址"/>
+					</Item>
+					<Item Title="快速待處理"/>
+					<Item Title="學生歷程"/>
+					<Item Title="修改歷程(舊)"/>
+					<Item Title="自訂資料欄位管理"/>
+				</Item>
+			</Item>
+		</Item>
+		<Item Title="班級">
+			<Item Title="編輯">
+				<Item Title="Large">
+					<Item Title="新增"/>
+					<Item Title="刪除"/>
+				</Item>
+			</Item>
+			<Item Title="資料統計">
+				<Item Title="Large">
+					<Item Title="匯出">
+						<Item Title="匯出班級基本資料"/>
+					</Item>
+					<Item Title="匯入">
+						<Item Title="匯入班級基本資料"/>
+					</Item>
+					<Item Title="報表">
+						<Item Title="學籍相關報表">
+							<Item Title="學生證"/>
+							<Item Title="班級名條"/>
+							<Item Title="班級點名表"/>
+							<Item Title="班級通訊錄"/>
+							<Item Title="學生男女比例"/>
+							<Item Title="學生里鄰統計"/>
+							<Item Title="學生年齡統計"/>
+							<Item Title="學生類別統計"/>
+							<Item Title="學生父母職業統計"/>
+						</Item>
+						<Item Title="成績相關報表">
+							<Item Title="學籍表"/>
+							<Item Title="班級學期成績單"/>
+							<Item Title="班級評量成績單"/>
+							<Item Title="個人評量成績單"/>
+							<Item Title="學期成績通知單"/>
+							<Item Title="學期成績證明單"/>
+							<Item Title="學期優異表現名單"/>
+							<Item Title="班級評量成績平均比較表"/>
+							<Item Title="班級學期成績平均比較表"/>
+							<Item Title="學期成績單"/>
+							<Item Title="學分統計表"/>
+							<Item Title="建議重修名單"/>
+							<Item Title="多學期成績單"/>
+							<Item Title="班級考試成績單"/>
+							<Item Title="學期成績單(新制)"/>
+							<Item Title="學年成績單(新制)"/>
+							<Item Title="班級考試成績單(Word)"/>
+							<Item Title="班級學生學期成績一覽表"/>
+							<Item Title="學籍表(96學年度前入學適用)"/>
+						</Item>
+						<Item Title="學務相關報表">
+							<Item Title="班級通訊錄"/>
+							<Item Title="班級點名表"/>
+							<Item Title="班級點名表(自定樣板)"/>
+							<Item Title="缺曠通知單"/>
+							<Item Title="懲戒通知單"/>
+							<Item Title="獎勵懲戒通知單"/>
+							<Item Title="銷過通知單"/>
+							<Item Title="留察通知單"/>
+							<Item Title="獎懲週報表"/>
+							<Item Title="缺曠週報表(依節次)"/>
+							<Item Title="缺曠週報表(依假別)"/>
+							<Item Title="(舊版)獎懲週報表"/>
+							<Item Title="(舊版)缺曠週報表(依節次)"/>
+							<Item Title="(舊版)缺曠週報表(依假別)"/>
+							<Item Title="班級獎懲記錄明細"/>
+							<Item Title="班級缺曠記錄明細"/>
+							<Item Title="班級缺曠記錄明細(確認表)"/>
+							<Item Title="班級學生缺曠統計"/>
+							<Item Title="班級學生獎懲統計"/>
+							<Item Title="日常生活表現總表"/>
+							<Item Title="德行評量總表(新制)"/>
+							<Item Title="德行成績總表(舊制)"/>
+							<Item Title="德行成績試算表(舊制)"/>
+							<Item Title="德行表現特殊學生名單"/>
+						</Item>
+						<Item Title="社團相關報表">
+							<Item Title="班級社團分組名單"/>
+						</Item>
+					</Item>
+				</Item>
+			</Item>
+			<Item Title="指定">
+				<Item Title="Medium">
+					<Item Title="類別"/>
+					<Item Title="學生"/>
+					<Item Title="課程規劃">
+						<Item Title="不指定"/>
+					</Item>
+					<Item Title="計算規則">
+						<Item Title="不指定"/>
+					</Item>
+					<Item Title="時間表">
+					</Item>
+				</Item>
+				<Item Title="教務">
+					<Item Title="Medium">
+						<Item Title="班級升級"/>
+						<Item Title="班級開課">
+							<Item Title="直接開課"/>
+							<Item Title="依課程規劃表開課"/>
+						</Item>
+						<Item Title="評量成績複製"/>
+					</Item>
+				</Item>
+				<Item Title="學務">
+					<Item Title="Medium">
+						<Item Title="德行加減分"/>
+						<Item Title="文字評量"/>
+						<Item Title="班級幹部管理"/>
+						<Item Title="班級幹部登錄"/>
+						<Item Title="社團快速分組"/>
+						<Item Title="特殊學生表現"/>
+						<Item Title="聯絡資訊管理"/>
+						<Item Title="評等輸入"/>
+					</Item>
+				</Item>
+				<Item Title="其它" Last="True">
+					<Item Title="Medium">
+						<Item Title="班級歷程"/>
+					</Item>
+					<Item Title="Medium">
+						<Item Title="修改歷程(舊)"/>
+					</Item>
+				</Item>
+				<Item Title="輔導">
+					<Item Title="Medium">
+						<Item Title="指定輔導資料樣板"/>
+					</Item>
+				</Item>
+			</Item>
+		</Item>
+		<Item Title="教師">
+			<Item Title="編輯">
+				<Item Title="Large">
+					<Item Title="新增"/>
+					<Item Title="刪除"/>
+				</Item>
+			</Item>
+			<Item Title="資料統計">
+				<Item Title="Large">
+					<Item Title="匯出">
+						<Item Title="匯出教師基本資料"/>
+						<Item Title="匯出教師類別"/>
+					</Item>
+					<Item Title="匯入">
+						<Item Title="匯入教師基本資料"/>
+					</Item>
+					<Item Title="報表"/>
+				</Item>
+			</Item>
+			<Item Title="指定">
+				<Item Title="Medium">
+					<Item Title="類別"/>
+					<Item Title="授課"/>
+				</Item>
+			</Item>
+			<Item Title="其它" Last="True">
+				<Item Title="Medium">
+					<Item Title="教師歷程"/>
+					<Item Title="修改歷程(舊)"/>
+				</Item>
+			</Item>
+		</Item>
+		<Item Title="課程">
+			<Item Title="編輯">
+				<Item Title="Large">
+					<Item Title="新增"/>
+					<Item Title="刪除"/>
+				</Item>
+			</Item>
+			<Item Title="資料統計">
+				<Item Title="Large">
+					<Item Title="匯出">
+						<Item Title="匯出課程基本資料"/>
+						<Item Title="匯出課程修課學生"/>
+					</Item>
+					<Item Title="匯入">
+						<Item Title="匯入課程基本資料"/>
+						<Item Title="匯入課程修課學生"/>
+					</Item>
+					<Item Title="報表">
+						<Item Title="課程修課學生清單"/>
+						<Item Title="學生修課清單"/>
+						<Item Title="社團相關報表">
+							<Item Title="社團活動學生點名單"/>
+						</Item>
+					</Item>
+				</Item>
+			</Item>
+			<Item Title="指定">
+				<Item Title="Medium">
+					<Item Title="類別"/>
+					<Item Title="修課學生">
+						<Item Title="加入所有待處理學生"/>
+					</Item>
+					<Item Title="評分教師"/>
+					<Item Title="評分樣版"/>
+					<Item Title="時間表"/>
+					<Item Title="預設場地"/>
+				</Item>
+			</Item>
+			<Item Title="教務">
+				<Item Title="Medium">
+					<Item Title="分組上課"/>
+					<Item Title="成績輸入"/>
+					<Item Title="平時評量輸入"/>
+					<Item Title="成績計算"/>
+				</Item>
+			</Item>
+			<Item Title="其它" Last="True">
+				<Item Title="Medium">
+					<Item Title="課程歷程"/>
+					<Item Title="修改歷程(舊)"/>
+					<Item Title="Large">
+						<Item Title="調換學生"/>
+						<Item Title="批次產生課程分段"/>
+					</Item>
+				</Item>
+			</Item>
+			<Item Title="讀卡">
+				<Item Title="Large">
+					<Item Title="匯入讀卡成績"/>
+				</Item>
+				<Item Title="Small">
+					<Item Title="班級代碼設定"/>
+					<Item Title="試別代碼設定"/>
+					<Item Title="科目代碼設定"/>
+				</Item>
+			</Item>
+		</Item>
+		<Item Title="教務作業">
+			<Item Title="基本設定">
+				<Item Title="Large">
+					<Item Title="管理">
+						<Item Title="科別對照管理"/>
+						<Item Title="領域資料管理"/>
+						<Item Title="科目資料管理"/>
+						<Item Title="評量名稱管理"/>
+						<Item Title="等第對照管理"/>
+					</Item>
+					<Item Title="對照/代碼">
+						<Item Title="學籍身分對照表"/>
+						<Item Title="科目中英文對照表"/>
+						<Item Title="科別中英文對照表"/>
+						<Item Title="文字描述代碼表"/>
+						<Item Title="努力程度代碼表"/>
+					</Item>
+					<Item Title="設定">
+						<Item Title="課程規劃表"/>
+						<Item Title="成績計算規則"/>
+						<Item Title="評分樣版設定"/>
+						<Item Title="學業成績計算規則"/>
+						<Item Title="班級課程規劃表"/>
+						<Item Title="通用課程規劃表"/>
+						<Item Title="學程科目表"/>
+						<Item Title="自訂畢業應修及格科目表"/>
+					</Item>
+				</Item>
+			</Item>
+			<Item Title="資料統計">
+				<Item Title="Large">
+					<Item Title="報表"/>
+				</Item>
+			</Item>
+			<Item Title="批次作業/檢視">
+				<Item Title="Large">
+					<Item Title="新生作業">
+						<Item Title="批次產生新生異動"/>
+					</Item>
+					<Item Title="異動作業">
+						<Item Title="函報名冊"/>
+						<Item Title="函報名冊(日進校)"/>
+						<Item Title="異動資料檢視"/>
+						<Item Title="轉入異動"/>
+						<Item Title="異動名冊"/>
+						<Item Title="異動資料檢視"/>
+					</Item>
+					<Item Title="成績作業">
+						<Item Title="產生學期歷程"/>
+						<Item Title="批次計算科目成績"/>
+						<Item Title="批次計算領域成績"/>
+						<Item Title="批次計算學習領域成績"/>
+						<Item Title="批次加總學習領域文字描述"/>
+						<Item Title="小考輸入狀況檢視"/>
+						<Item Title="評量輸入狀況檢視"/>
+						<Item Title="平時評量輸入狀況檢視"/>
+						<Item Title="評量輸入狀況"/>
+						<Item Title="課程成績輸入狀況"/> <!--2013/4/25 均泰新增-->
+						<Item Title="課程及評量成績百分檢查"/> <!--2013/5/9 均泰新增-->
+						<Item Title="學期成績處理"/>
+						<Item Title="學年成績處理"/>
+						<Item Title="建議重修名單-依科目"/>
+						<Item Title="建議重修名單-依學生"/>
+						<Item Title="重修成績匯入表"/>
+						<Item Title="補考名單-依科目"/>
+						<Item Title="補考名單-依學生"/>
+						<Item Title="補考成績匯入表"/>
+					</Item>
+					<Item Title="畢業作業">
+						<Item Title="畢業資格審查"/>
+						<Item Title="產生畢業證書字號"/>
+						<Item Title="批次產生畢業異動"/>
+					</Item>
+				</Item>
+				<Item Title="Medium">
+					<Item Title="班級升級"/>
+				</Item>
+			</Item>
+			<Item Title="學籍作業">
+				<Item Title="Medium">
+					<Item Title="上傳至局端"/>
+					<Item Title="檢視上傳至局端傳送訊息"/>
+				</Item>
+			</Item>
+		</Item>
+		<Item Title="學務作業">
+			<Item Title="基本設定">
+				<Item Title="Large">
+					<Item Title="管理">
+						<Item Title="缺曠類別管理"/>
+						<Item Title="每日節次管理"/>
+						<Item Title="功過換算管理"/>
+						<Item Title="幹部名稱管理"/>
+						<Item Title="等第對照管理"/>
+					</Item>
+					<Item Title="對照/代碼">
+						<Item Title="導師評語代碼表"/>
+						<Item Title="表現程度代碼表"/>
+						<Item Title="獎懲事由代碼表"/>
+						<Item Title="德行評語代碼表"/>
+						<Item Title="文字評量代碼表"/>
+						<Item Title="服務學習事由代碼表"/>
+					</Item>
+					<Item Title="設定">
+						<Item Title="開放時間設定"/>
+						<Item Title="上課天數設定"/>
+						<Item Title="日常生活表現評等設定"/>
+						<Item Title="日常生活表現輸入時間設定"/>
+					</Item>
+				</Item>
+			</Item>
+			<Item Title="資料統計">
+				<Item Title="Large">
+					<Item Title="報表">
+						<Item Title="銷過記錄清單"/>
+						<Item Title="獎懲人數統計"/>
+						<Item Title="獎懲統計報表"/>
+						<Item Title="缺曠統計報表"/>
+						<Item Title="學校幹部總表"/>
+					</Item>
+				</Item>
+			</Item>
+			<Item Title="批次作業/查詢">
+				<Item Title="Medium">
+					<Item Title="獎懲批次修改"/>
+					<Item Title="缺曠批次修改"/>
+					<Item Title="缺曠資料檢視"/>
+					<Item Title="服務學習批次修改"/>
+					<Item Title="服務時數查詢"/>
+					<Item Title="銷過記錄清單"/>
+					<Item Title="評等輸入狀況"/>
+					<Item Title="學校幹部登錄"/>
+					<Item Title="公務統計報表">
+						<Item Title="獎懲人數統計"/>
+					</Item>
+					<Item Title="德行成績(舊制)">
+						<Item Title="計算德行學期成績(舊制)"/>
+						<Item Title="計算德行學年成績(舊制)"/>
+					</Item>
+				</Item>
+			</Item>
+			<Item Title="鍵盤作業">
+				<Item Title="Medium">
+					<Item Title="缺曠鍵盤登錄"/>
+					<Item Title="獎懲鍵盤登錄"/>
+				</Item>
+			</Item>
+		</Item>
+		<Item Title="高雄社團">
+			<Item Title="編輯">
+				<Item Title="Large">
+					<Item Title="新增社團"/>
+					<Item Title="刪除社團"/>
+				</Item>
+			</Item>
+			<Item Title="資料統計">
+				<Item Title="Large">
+					<Item Title="匯出">
+						<Item Title="匯出社團基本資料"/>
+						<Item Title="匯出社團參與學生"/>
+					</Item>
+					<Item Title="匯入">
+						<Item Title="匯入社團基本資料"/>
+						<Item Title="匯入社團參與學生"/>
+					</Item>
+					<Item Title="報表">
+						<Item Title="社團點名表"/>
+						<Item Title="社團修課清單"/>
+						<Item Title="社團成績校對單"/>
+					</Item>
+				</Item>
+			</Item>
+			<Item Title="成績">
+				<Item Title="Small">
+					<Item Title="社團評量設定"/>
+					<Item Title="社團成績輸入"/>
+					<Item Title="社團成績期末結算"/>
+				</Item>
+			</Item>
+			<Item Title="批次作業/檢查">
+				<Item Title="Medium">
+					<Item Title="變更學生參與社團"/>
+					<Item Title="社團幹部登錄"/>
+				</Item>
+				<Item Title="Small">
+					<Item Title="社團評量輸入檢查"/>
+					<Item Title="未參與社團檢查"/>
+					<Item Title="重覆參與社團檢查"/>
+				</Item>
+			</Item>
+			<Item Title="其它" Last="True">
+				<Item Title="Medium">
+					<Item Title="上課地點管理"/>
+					<Item Title="社團歷程"/>
+				</Item>
+			</Item>
+		</Item>
+		<Item Title="新民社團">
+			<Item Title="編輯">
+				<Item Title="Large">
+					<Item Title="新增社團"/>
+					<Item Title="複製社團"/>
+					<Item Title="刪除社團"/>
+				</Item>
+			</Item>
+			<Item Title="資料統計">
+				<Item Title="Large">
+					<Item Title="匯出">
+						<Item Title="匯出聯課活動成績(資料介接)"/>
+					</Item>
+					<Item Title="報表">
+						<Item Title="社團點名單"/>
+					</Item>
+				</Item>
+			</Item>
+			<Item Title="檢查">
+				<Item Title="Medium">
+					<Item Title="未選社團檢查"/>
+					<Item Title="重覆選社檢查"/>
+					<Item Title="調整社團學生"/>
+				</Item>
+			</Item>
+			<Item Title="成績">
+				<Item Title="Medium">
+					<Item Title="成績輸入"/>
+					<Item Title="評量比例"/>
+					<Item Title="學期結算"/>
+				</Item>
+			</Item>
+			<Item Title="其它">
+				<Item Title="Medium">
+					<Item Title="開放選社時間"/>
+					<Item Title="成績輸入時間"/>
+				</Item>
+			</Item>
+		</Item>
+		<Item Title="通用社團">
+			<Item Title="編輯">
+				<Item Title="Large">
+					<Item Title="新增社團"/>
+					<Item Title="複製社團"/>
+					<Item Title="刪除社團"/>
+				</Item>
+			</Item>
+			<Item Title="資料統計">
+				<Item Title="Large">
+					<Item Title="匯出">
+						<Item Title="匯出聯課活動成績(資料介接)"/>
+					</Item>
+					<Item Title="報表">
+						<Item Title="社團點名單"/>
+					</Item>
+				</Item>
+			</Item>
+			<Item Title="檢查">
+				<Item Title="Medium">
+					<Item Title="未選社團檢查"/>
+					<Item Title="重覆選社檢查"/>
+					<Item Title="調整社團學生"/>
+				</Item>
+			</Item>
+			<Item Title="成績">
+				<Item Title="Medium">
+					<Item Title="成績輸入"/>
+					<Item Title="評量比例"/>
+					<Item Title="學期結算"/>
+				</Item>
+			</Item>
+			<Item Title="其它">
+				<Item Title="Medium">
+					<Item Title="開放選社時間"/>
+					<Item Title="成績輸入時間"/>
+				</Item>
+			</Item>
+		</Item>
+		<Item Title="志願序社團">
+			<Item Title="編輯">
+				<Item Title="Large">
+					<Item Title="新增社團"/>
+					<Item Title="複製社團"/>
+					<Item Title="刪除社團"/>
+				</Item>
+			</Item>
+			<Item Title="資料統計">
+				<Item Title="Large">
+					<Item Title="匯出">
+						<Item Title="匯出聯課活動成績(資料介接)"/>
+					</Item>
+					<Item Title="報表">
+						<Item Title="社團點名單"/>
+					</Item>
+				</Item>
+			</Item>
+			<Item Title="檢查">
+				<Item Title="Medium">
+					<Item Title="未選社團檢查"/>
+					<Item Title="重覆選社檢查"/>
+					<Item Title="調整社團學生"/>
+				</Item>
+			</Item>
+			<Item Title="成績">
+				<Item Title="Medium">
+					<Item Title="成績輸入"/>
+					<Item Title="評量比例"/>
+					<Item Title="學期結算"/>
+				</Item>
+			</Item>
+			<Item Title="志願">
+				<Item Title="Medium">
+					<Item Title="選社志願設定"/>
+					<Item Title="志願分配作業"/>
+				</Item>
+			</Item>
+			<Item Title="其它">
+				<Item Title="Medium">
+					<Item Title="開放選社時間"/>
+					<Item Title="成績輸入時間"/>
+				</Item>
+			</Item>
+		</Item>
+		<Item Title="重補修">
+			<Item Title="編輯">
+				<Item Title="Large">
+					<Item Title="新增課程"/>
+					<Item Title="刪除課程"/>
+				</Item>
+			</Item>
+			<Item Title="資料統計">
+				<Item Title="Large">
+					<Item Title="匯出">
+						<Item Title="學生選課清單"/>
+						<Item Title="課程學期成績匯入檔"/>
+					</Item>
+					<Item Title="匯入">
+						<Item Title="匯入課程"/>
+						<Item Title="匯入修課學生"/>
+					</Item>
+					<Item Title="報表">
+						<Item Title="課程點名單"/>
+						<Item Title="課程缺曠名單"/>
+						<Item Title="缺曠通知單"/>
+						<Item Title="及格人數"/>
+					</Item>
+				</Item>
+			</Item>
+			<Item Title="前置作業">
+				<Item Title="Medium">
+					<Item Title="建議重補修名單"/>
+					<Item Title="科目管理"/>
+					<Item Title="課表管理"/>
+					<Item Title="開課"/>
+					<Item Title="選課開放時間"/>
+					<Item Title="時間表設定"/>
+				</Item>
+			</Item>
+			<Item Title="缺曠">
+				<Item Title="Medium">
+					<Item Title="缺曠登錄"/>
+					<Item Title="扣考查詢"/>
+				</Item>
+			</Item>
+			<Item Title="成績">
+				<Item Title="Medium">
+					<Item Title="評量設定"/>
+					<Item Title="成績輸入區間"/>
+					<Item Title="成績輸入"/>
+					<Item Title="成績結算"/>
+				</Item>
+			</Item>
+		</Item>
+		<Item Title="排課">
+			<Item Title="編輯">
+				<Item Title="Large">
+					<Item Title="新增"/>
+					<Item Title="刪除"/>
+				</Item>
+			</Item>
+			<Item Title="資料統計">
+				<Item Title="Large">
+					<Item Title="匯出">
+						<Item Title="匯出課程資料"/>
+						<Item Title="匯出課程分段資料"/>
+					</Item>
+					<Item Title="匯入">
+						<Item Title="匯入課程資料"/>
+						<Item Title="匯入課程分段資料"/>
+					</Item>
+				</Item>
+			</Item>
+			<Item Title="基本設定">
+				<Item Title="Medium">
+					<Item Title="時間表"/>
+					<Item Title="場地"/>
+					<Item Title="班級"/>
+					<Item Title="教師"/>
+					<Item Title="重設課程規劃"/>
+				</Item>
+			</Item>
+			<Item Title="指定">
+				<Item Title="Medium">
+					<Item Title="分割設定"/>
+					<Item Title="開放查詢">
+						<Item Title="開放"/>
+						<Item Title="不開放"/>
+					</Item>
+					<Item Title="預設場地"/>
+					<Item Title="課程群組">
+						<Item Title="指定"/>
+						<Item Title="取消"/>
+					</Item>
+					<Item Title="預設時間表"/>
+				</Item>
+			</Item>
+			<Item Title="課程">
+				<Item Title="Medium">
+					<Item Title="管理課程規劃表"/>
+					<Item Title="依課程規劃開課"/>
+					<Item Title="產生課程分段"/>
+					<Item Title="複製課程回ischool"/>
+				</Item>
+			</Item>
+		</Item>
+		<Item Title="畢業">
+			<Item Title="系統">
+				<Item Title="Large">
+					<Item Title="取得封存資料"/>
+				</Item>
+			</Item>
+			<Item Title="資料統計">
+				<Item Title="Large">
+					<Item Title="匯出">
+						<Item Title="匯出基本資料"/>
+					</Item>
+					<Item Title="匯入">
+						<Item Title="匯入基本資料"/>
+					</Item>
+				</Item>
+			</Item>
+			<Item Title="書面管理">
+				<Item Title="Large">
+					<Item Title="上傳"/>
+					<Item Title="下載"/>
+					<Item Title="文件分割"/>
+				</Item>
+			</Item>
+		</Item>
+		<Item Title="客戶服務" Last="True">
+			<Item Title="網頁功能項目">
+				<Item Title="Large">
+					<Item Title="上一頁"/>
+					<Item Title="下一頁"/>
+					<Item Title="重新整理"/>
+					<Item Title="停止"/>
+				</Item>
+			</Item>
+			<Item Title="快速連結">
+				<Item Title="Large">
+					<Item Title="客戶服務首頁"/>
+				</Item>
+				<Item Title="Medium">
+					<Item Title="ischool討論區(舊)"/>
+					<Item Title="高雄市國中校務行政平台"/>
+				</Item>
+			</Item>
+		</Item>
+	</RibbonControl>
+	<DetailContents>
+		<Item Title="學生">
+			<Item Title="基本資料"/>
+			<Item Title="電話資料"/>
+			<Item Title="地址資料"/>
+			<Item Title="班級資訊"/>
+			<Item Title="學生班級資訊"/>
+			<Item Title="學生概況"/>
+			<Item Title="學生自傳"/>
+			<Item Title="異動資料"/>
+			<Item Title="父母親及監護人資料"/>
+			<Item Title="學期歷程"/>
+			<Item Title="前級畢業資訊"/>
+			<Item Title="學期成績"/>
+			<Item Title="修課及評量成績"/>
+			<Item Title="學期對照表"/>
+			<Item Title="學年成績"/>
+			<Item Title="課程相關成績"/>
+			<Item Title="畢業成績"/>
+			<Item Title="前級畢業資訊"/>
+			<Item Title="文字評量"/>
+			<Item Title="畢業及離校資訊"/>
+			<Item Title="學期成績排名與排名百分比"/>
+			<Item Title="缺曠紀錄"/>
+			<Item Title="畢業資訊"/>
+			<Item Title="獎勵記錄"/>
+			<Item Title="獎懲學期統計"/>
+			<Item Title="懲戒記錄"/>
+			<Item Title="缺曠學期統計"/>
+			<Item Title="幹部記錄"/>
+			<Item Title="德行分項成績"/>
+			<Item Title="服務學習記錄"/>
+			<Item Title="電子報表"/>
+			<Item Title="日常生活表現"/>
+			<Item Title="社團記錄"/>
+			<Item Title="社團成績"/>
+			<Item Title="代碼與親屬關係"/>
+			<!--新民高中客製功能-->
+			<Item Title="自訂資料欄位"/>
+			<!--輔導-->
+			<Item Title="認輔/輔導老師"/>
+			<Item Title="心理測驗"/>
+			<Item Title="晤談紀錄"/>
+			<Item Title="優先關懷"/>
+			<Item Title="個案會議"/>
+			<Item Title="輔導自訂欄位"/>
+			<Item Title="綜合表現紀錄表(舊)"/>
+			<Item Title="綜合表現記錄表-本人概況"/>
+			<Item Title="綜合表現記錄表-家庭狀況"/>
+			<Item Title="綜合表現記錄表-學習狀況"/>
+			<Item Title="綜合表現記錄表-自傳"/>
+			<Item Title="綜合表現記錄表-自我認識"/>
+			<Item Title="綜合表現記錄表-生活感想"/>
+			<Item Title="綜合表現記錄表-畢業後計畫"/>
+			<Item Title="綜合表現記錄表-備註"/>
+			<Item Title="綜合表現記錄表-適應情形"/>
+			<!--輔導-->
+		</Item>
+		<Item Title="班級">
+			<Item Title="班級基本資料"/>
+			<Item Title="班級學生資訊"/>
+			<Item Title="輔導資料樣版"/>
+			<Item Title="電子報表"/>
+			<Item Title="班級不排課時段"/>
+		</Item>
+		<Item Title="教師">
+			<Item Title="教師基本資料"/>
+			<Item Title="班級"/>
+			<Item Title="帶班班級"/>
+			<Item Title="電子報表"/>
+			<Item Title="教授課程"/>
+			<Item Title="教師代碼"/>
+			<Item Title="教師不排課時段"/>
+			<Item Title="教師不調代時段"/>
+			<Item Title="教師差假記錄"/>
+		</Item>
+		<Item Title="課程">
+			<Item Title="課程基本資料"/>
+			<Item Title="基本資料"/>
+			<Item Title="修課學生"/>
+			<Item Title="成績計算"/>
+			<Item Title="電子報表"/>
+			<Item Title="課程排課資料"/>
+			<Item Title="課程分段"/>
+		</Item>
+		<!--社團 -->
+		<Item Title="高雄社團">
+			<!--高雄社團 -->
+			<Item Title="社團基本資料"/>
+			<Item Title="社員清單"/>
+		</Item>
+		<Item Title="新民社團">
+			<Item Title="社團照片"/>
+			<Item Title="基本資料"/>
+			<Item Title="選社限制"/>
+			<Item Title="參與學生"/>
+			<Item Title="社團幹部"/>
+		</Item>
+		<Item Title="通用社團">
+			<Item Title="社團照片"/>
+			<Item Title="基本資料"/>
+			<Item Title="選社限制"/>
+			<Item Title="參與學生"/>
+			<Item Title="社團幹部"/>
+		</Item>
+		<Item Title="志願序社團">
+			<Item Title="社團照片"/>
+			<Item Title="基本資料"/>
+			<Item Title="選社限制"/>
+			<Item Title="參與學生"/>
+			<Item Title="社團幹部"/>
+		</Item>
+		<Item Title="重補修">
+			<Item Title="課程基本資料"/>
+			<Item Title="修課學生"/>
+			<Item Title="課程時間表"/>
+		</Item>
+		<Item Title="排課">
+			<Item Title="課程"/>
+			<Item Title="排課條件"/>
+			<Item Title="課程分段"/>
+			<Item Title="課程(國中)"/>
+			<Item Title="課程(高中)"/>
+		</Item>
+		<Item Title="畢業">
+			<Item Title="基本資料"/>
+			<Item Title="書面檔案"/>
+			<Item Title="聯絡資訊"/>
+			<Item Title="備註"/>
+		</Item>
+	</DetailContents>
+</Layout>
