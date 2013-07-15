@@ -1,0 +1,44 @@
+﻿<App Title="Win Form App">
+
+    <!-- 應用程式重新導向，用於當程式換位置，但是已經有大量使用者安裝時。
+    <App Redirect="http://apps.ischool.com.tw/ischool/app.xml"/>
+    -->
+
+    <!-- 應用程式的強式名稱 -->
+    <AppIdentity>WinFormApp, PublicKeyToken=295664CE2C3C2B8D</AppIdentity>
+
+    <!-- 應用程式說明。-->
+    <Description><![CDATA[Windows Form Application 範例的說明。]]></Description>
+
+    <!-- 指示應用程式之相關程式碼下載位置。-->
+    <Mirrors>
+        <Mirror AcceptPing="False">http://apps.ischool.com.tw/apps/fiscaapp/app.xml</Mirror>
+        <Mirror>http://apps.kunhsiung.edu.tw/apps/fiscaapp/app.xml</Mirror>
+        <Mirror>http://apps.hsinchu.edu.tw/apps/fiscaapp/app.xml</Mirror>
+    </Mirrors>
+
+    <BetaReleaseDigest>295664CE2C3C2B8D295664CE2C3C2B8D295664CE2C3C2B8D</BetaReleaseDigest>
+
+    <StableReleaseDigest>295664CE2C3C2B8D295664CE2C3C2B8D295664CE2C3C2B8D</StableReleaseDigest>
+
+    <!-- 應用程式強式名稱的 PublicKey。-->
+    <PublicKey>
+        <RSAKeyValue>
+            <Modulus>u4ClPuMXfWQTQQ7uGxyflN7+dVWQguq+xtp2xeC95y9GgAEusRbLVxVzhe/B98sF14WDB2lulJt4W/CTi6DyqgE5vLrYV6eCDkGUlr+/FoIt9YZtfUafQeoT87eiMy4tvDE0So0Xub+O3KXpNq76JutvLF1ksLPqU7Ct1SyYOFk=</Modulus>
+            <Exponent>AQAB</Exponent>
+        </RSAKeyValue>
+    </PublicKey>
+
+    <!-- 應用程式描述檔數位簽章。-->
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+            <Reference URI="">
+                <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                <DigestValue>saYuegW/w2g/tsXBmcK/o4RRz3E=</DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>TaTo1OzSHaIoA0uornmB50M/QmHnumxmI2Y3hXCcLzKdiByCnUcSW1Si4MKS9kok69Zm6MQNKu+xfr1cPgpG/1Hw8b+pMVcfrRjJZ5k6Eae6msyS7pjdUeEW19N4P4m5I+FJXOEnWVG6EA/VzHSJmYjC+qhd1rQ1A+Hb6V2GcW4=</SignatureValue>
+    </Signature>
+</App>

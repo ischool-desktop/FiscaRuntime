@@ -13,7 +13,6 @@ namespace LangEditor
 {
     public partial class MainForm : Form
     {
-
         private string _opened_file;
 
         private string OpenedFileName
@@ -46,9 +45,10 @@ namespace LangEditor
                 dialog.Filter = "*.resources|*.resources";
                 dialog.Title = "開啟語言檔";
 
-                dgvLang.Rows.Clear();
                 if (dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
                 {
+                    dgvLang.Rows.Clear();
+
                     ResourceReader rr = new ResourceReader(dialog.FileName);
                     IDictionaryEnumerator rcset = rr.GetEnumerator();
                     while (rcset.MoveNext())
@@ -83,6 +83,7 @@ namespace LangEditor
         {
             ResourceWriter rw = new ResourceWriter(fileName);
 
+            dgvLang.CommitEdit(DataGridViewDataErrorContexts.Commit);
             foreach (DataGridViewRow each in dgvLang.Rows)
             {
                 if (each.IsNewRow)
