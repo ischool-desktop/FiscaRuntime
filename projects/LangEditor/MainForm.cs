@@ -8,6 +8,7 @@ using System.Linq;
 using System.Resources;
 using System.Text;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace LangEditor
 {
@@ -123,6 +124,54 @@ namespace LangEditor
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void exportXmlToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                List<string> langs = new List<string>();
+                langs.Add("Language.xml)|Language.xml");
+
+                SaveFileDialog dialog = new SaveFileDialog();
+                dialog.Filter = string.Join("|", langs.ToArray());
+                dialog.Title = "另存語言檔";
+
+                if (dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+                {
+                    GenerateXmlLanguage(dialog.FileName);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void GenerateXmlLanguage(string fileName)
+        {
+            XElement lang = new XElement("Internationalization");
+            XElement def = new XElement("Default");
+
+            lang.Add(new XElement("Assembly",
+                new XAttribute("Name", "FISCA"),
+                def));
+
+            dgvLang.CommitEdit(DataGridViewDataErrorContexts.Commit);
+            foreach (DataGridViewRow each in dgvLang.Rows)
+            {
+                if (each.IsNewRow)
+                    continue;
+
+                string key = each.Cells[chKey.Name].Value + "";
+                string value = each.Cells[chValue.Name].Value + "";
+
+                def.Add(new XElement("String",
+                    new XAttribute("Name", key),
+                    value));
+            }
+
+            lang.Save(fileName);
         }
     }
 }

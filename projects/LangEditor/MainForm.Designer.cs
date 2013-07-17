@@ -32,13 +32,14 @@
             this.mainmenu = new System.Windows.Forms.MenuStrip();
             this.mnuFile = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuOpen = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuSaveAs = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuSave = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuSaveAs = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
+            this.mnuClose = new System.Windows.Forms.ToolStripMenuItem();
             this.dgvLang = new System.Windows.Forms.DataGridView();
             this.chKey = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.chValue = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.mnuClose = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
+            this.exportXmlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mainmenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLang)).BeginInit();
             this.SuspendLayout();
@@ -60,6 +61,7 @@
             this.mnuOpen,
             this.mnuSave,
             this.mnuSaveAs,
+            this.exportXmlToolStripMenuItem,
             this.toolStripMenuItem1,
             this.mnuClose});
             this.mnuFile.Name = "mnuFile";
@@ -73,6 +75,13 @@
             this.mnuOpen.Text = "Open...";
             this.mnuOpen.Click += new System.EventHandler(this.mnuOpen_Click);
             // 
+            // mnuSave
+            // 
+            this.mnuSave.Name = "mnuSave";
+            this.mnuSave.Size = new System.Drawing.Size(152, 22);
+            this.mnuSave.Text = "Save";
+            this.mnuSave.Click += new System.EventHandler(this.mnuSave_Click);
+            // 
             // mnuSaveAs
             // 
             this.mnuSaveAs.Name = "mnuSaveAs";
@@ -80,12 +89,17 @@
             this.mnuSaveAs.Text = "Save As...";
             this.mnuSaveAs.Click += new System.EventHandler(this.mnuSaveAs_Click);
             // 
-            // mnuSave
+            // toolStripMenuItem1
             // 
-            this.mnuSave.Name = "mnuSave";
-            this.mnuSave.Size = new System.Drawing.Size(152, 22);
-            this.mnuSave.Text = "Save";
-            this.mnuSave.Click += new System.EventHandler(this.mnuSave_Click);
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(149, 6);
+            // 
+            // mnuClose
+            // 
+            this.mnuClose.Name = "mnuClose";
+            this.mnuClose.Size = new System.Drawing.Size(152, 22);
+            this.mnuClose.Text = "Close";
+            this.mnuClose.Click += new System.EventHandler(this.mnuClose_Click);
             // 
             // dgvLang
             // 
@@ -98,7 +112,7 @@
             this.chKey,
             this.chValue});
             this.dgvLang.Location = new System.Drawing.Point(13, 30);
-            this.dgvLang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvLang.Margin = new System.Windows.Forms.Padding(4);
             this.dgvLang.Name = "dgvLang";
             this.dgvLang.RowTemplate.Height = 24;
             this.dgvLang.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
@@ -117,17 +131,12 @@
             this.chValue.HeaderText = "資料值";
             this.chValue.Name = "chValue";
             // 
-            // mnuClose
+            // exportXmlToolStripMenuItem
             // 
-            this.mnuClose.Name = "mnuClose";
-            this.mnuClose.Size = new System.Drawing.Size(152, 22);
-            this.mnuClose.Text = "Close";
-            this.mnuClose.Click += new System.EventHandler(this.mnuClose_Click);
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(149, 6);
+            this.exportXmlToolStripMenuItem.Name = "exportXmlToolStripMenuItem";
+            this.exportXmlToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exportXmlToolStripMenuItem.Text = "Export Xml";
+            this.exportXmlToolStripMenuItem.Click += new System.EventHandler(this.exportXmlToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -139,7 +148,7 @@
             this.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.mainmenu;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FISCA 語系編輯器";
@@ -163,6 +172,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn chValue;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem mnuClose;
+        private System.Windows.Forms.ToolStripMenuItem exportXmlToolStripMenuItem;
     }
 }
 
