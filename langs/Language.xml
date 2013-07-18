@@ -243,8 +243,8 @@
 			<String Name="UserManager.ErrMsg003"> Password must be between 4 and 30 characters in length between the </String>
 			<String Name="UserManager.ErrMsg004"> Password and Confirm Password inconsistency </String>
 			<String Name="UserManager.ErrMsg005"> Save failed with the error message: {0} </String>
-			<String Name="UserManager.Msg001"> User {0} role has been modified but not yet saved \ n whether to save? </String>
-			<String Name="UserManager.Msg002"> User {0} could not be saved \ n {1} </String>
+			<String Name="UserManager.Msg001"> User {0} role has been modified but not yet saved \n whether to save? </String>
+			<String Name="UserManager.Msg002"> User {0} could not be saved \n {1} </String>
 			<String Name="UserManager.Msg003"> Are you sure you want to delete user {0} do? </String>
 			<String Name="UserManager.Msg004"> Delete User </String>
 			<String Name="UserManager.Msg005"> Save to complete. </String>
@@ -306,8 +306,8 @@
 			<String Name="UserManager.ErrMsg003">密码必须介于4和30之间的字元长度</String>
 			<String Name="UserManager.ErrMsg004">密码与确认密码不一致</String>
 			<String Name="UserManager.ErrMsg005">储存失败，错误讯息：{0}</String>
-			<String Name="UserManager.Msg001">使用者{0}角色已被修改，但尚未储存\Ñ是否储存？</String>
-			<String Name="UserManager.Msg002">使用者{0}无法储存\ N {1} </String>
+			<String Name="UserManager.Msg001">使用者{0}角色已被修改，但尚未储存\n是否储存？</String>
+			<String Name="UserManager.Msg002">使用者{0}无法储存\n {1} </String>
 			<String Name="UserManager.Msg003">您确定要删除使用者{0}吗？</String>
 			<String Name="UserManager.Msg004">删除使用者</String>
 			<String Name="UserManager.Msg005">储存完成。</String>
